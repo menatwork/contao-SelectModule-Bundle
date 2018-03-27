@@ -17,6 +17,12 @@
 			"email":"dziemba@men-at-work.de",
 			"homepage":"http://www.men-at-work.de",
 			"role":"Developer"
+		},
+		{
+			"name":"Michael Bischof",
+			"email":"mb@byteworks.ch",
+			"homepage":"http://www.byteworks.ch",
+			"role":"Contributor"
 		}
 	],
 	"support":{
