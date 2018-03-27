@@ -1,0 +1,45 @@
+{
+	"name":"menatwork/contao-selectmodule-bundle",
+	"description":"Assign a language to a module",
+	"keywords":["frontendmodule","module","language"],
+	"type":"contao-bundle",
+	"homepage":"http://www.men-at-work.de",
+	"license":"LGPL-3.0-or-later",
+	"authors":[
+		{
+			"name":"Stefan Heimes",
+			"email":"heimes@men-at-work.de",
+			"homepage":"http://www.men-at-work.de",
+			"role":"Developer"
+		},
+		{
+			"name":"Andreas Dziemba",
+			"email":"dziemba@men-at-work.de",
+			"homepage":"http://www.men-at-work.de",
+			"role":"Developer"
+		}
+	],
+	"support":{
+		"email":"contao@men-at-work.de",
+		"issues":"https://github.com/menatwork-ia/selectModule/issues",
+		"irc":"irc://irc.freenode.org/contao.dev",
+		"source":"https://github.com/menatwork-ia/selectModule"
+	},
+	"require":{
+		"php": "^7.0",
+		"contao/core-bundle": "^4.4",
+		"menatwork/contao-multicolumnwizard":"~3.3"
+	},
+	"autoload":{
+		"psr-4": {
+			"MenAtWork\\SelectModuleBundle\\": "src"
+		}
+	},
+	"replace":{
+		"contao-legacy/selectmodule":"*",
+		"menatwork/selectmodule":"*"
+	},
+	"extra": {
+		"contao-manager-plugin": "MenAtWork\\SelectModuleBundle\\ContaoManager\\Plugin"
+	}
+}
