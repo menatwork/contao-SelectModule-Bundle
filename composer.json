@@ -27,9 +27,9 @@
 	],
 	"support":{
 		"email":"contao@men-at-work.de",
-		"issues":"https://github.com/menatwork-ia/selectModule/issues",
+		"issues":"https://github.com/menatwork/contao-SelectModule-Bundle/issues",
 		"irc":"irc://irc.freenode.org/contao.dev",
-		"source":"https://github.com/menatwork-ia/selectModule"
+		"source":"https://github.com/menatwork/contao-SelectModule-Bundle"
 	},
 	"require":{
 		"php": "^7.0",
