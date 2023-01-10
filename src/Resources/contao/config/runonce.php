@@ -21,7 +21,7 @@ class SelectModuleRunonce extends \Controller
                 ->prepare('SELECT id, sm_wizard FROM tl_module WHERE type = \'selectmodule\'')
                 ->execute();
 
-        while($row = $objModules->fetchAssoc())
+        foreach ($objModules->fetchAllAssoc() as $row)
         {
             $tmp = deserialize($row['sm_wizard'], true);
 
